@@ -5,10 +5,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    backgrocolor: red;
 }
+
 @keyframes typewriter {
     from {
-        width: 0;
+        width: 1;
     }
 
     to {
@@ -16,7 +18,7 @@
     }
 }
 
-#   hanging-word {
+#changing-word {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
@@ -37,6 +39,7 @@
 
 html,body{
     width: 100%;
+    
 }
 
 header, main{
@@ -45,14 +48,14 @@ header, main{
 }
 
 h1{
-    font-size: 48px;
+    font-size: 50px;
     color: #1a202c;
 
 }
 
 h2{
     color: #243E63;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -251,6 +254,7 @@ li{
 .link__login:hover {
     border-color: #6415ff;
     color: #6415ff;
+    cursor: pointer;
 }
 
 .logo__name:hover{
@@ -745,6 +749,10 @@ a {
     margin: 20px 0 0;
     font-weight: 500;
     color: #718096;
+    cursor: pointer;
+}
+.feature:hover{
+    text-decoration: underline;
 }
 
 .plan__bottom{

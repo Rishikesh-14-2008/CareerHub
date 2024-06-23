@@ -41,4 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Initial call to start the word changing cycle
     changeWord();
-});
+}); 
+
+
