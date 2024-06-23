@@ -1,0 +1,6 @@
+# CareerHub
+***YOU WILL NEED AN ACCOUNT TO USE THE CHATBOT!***
+This project is a website Rishi, Aayush, Jayden, Ash, Shyam, and Krish created to enhance my skills in HTML, CSS, and JavaScript. It's a website that provides career counseling for high school students. 
+
+
+CareerHub is a website we developed to help students find out what career they are interested in to learn in the future. This model allows students to, additionally, learn courses from the STEM, Business, and Medical fields. The survey-based questioning for the user is implemented using a chatbot powered by Poe that asks career and character questions to generate the best field for the user based on input. Adding on to make this website presentable, we used a template from Github which contained an MIT license. The Github template was by jaydjunz called FrontEndProject-WebsiteTemplates. This website template helped us a lot for sparking ideas and lay a foundation for how our website is organized. We also used sources such as Khan Academy, Coursera, YouTube, etc for the students that want to learn. We also used a chatbot for the survey we conducted for the major/field interests for the students. This chatbot was made using poe.com. Overall we had a really fun time making this website, learned a lot of new skills, and made new friends. 
