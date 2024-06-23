@@ -40,6 +40,25 @@ header {
     font-size: 1.2rem;
     margin-left: 10px;
 }
-.info_item {
-    margin-bottom: 20px;
+
+/* Service Icons */
+
+.service__icon--wrapper {
+    width: 64px; 
+    height: 64px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-right: 20px; 
+
+}
+
+.service__icon--wrapper img {
+    width: 128px; 
+    height: 128px; 
+    object-fit: fill; 
+    display: block; 
+    
+}
+.service{
+    
 }
