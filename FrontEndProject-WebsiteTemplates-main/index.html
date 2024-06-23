@@ -1,0 +1,371 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/0129da2f25.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <header id="landing">
+        <nav class="nav__bar">
+            <div class="row">
+                <a href="index.html" class="left__logo">
+                    <img class="logo__img" src="Careerhub.png" alt="">
+                    <span class="logo__name">CareerHub</span>
+                </a>
+                <div class="links__wrapper">
+                    <div class="links">
+                        <a href="index.html" class="link">Home</a>
+                        <a href="chatbot.html" class="link">Diagnostic</a>
+                        <a href="faq.html" class="link">FAQ</a>
+                        <a href="contact.html" class="link">Contact Us</a>
+                        <a class="link">Courses</a>
+                        
+                    </div>
+                </div>
+                <button class="links__menu__btn--open" onclick="openMenu()"><i class="fa-solid fa-bars"></i></button>
+                
+            </div>
+            <div class="menu__backdrop">
+                <button class="links__menu__btn--close" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></button>
+                <div class="menu__wrapper">
+                    <a href="#" class="menu__link">Home</a>
+                    <a href="chatbot.html" class="menu__link">ChatBot</a>
+                    <a href="#" class="menu__link">FAQ</a>
+                    <a href="#" class="menu__link">Contact Us</a>
+                    <a href="#" class="menu__link">Courses</a>
+                    
+                </div>
+            </div>
+        </nav>
+        <section class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="left__wrapper">
+                        <h1>Together, we are </h1>
+                        <br>
+                        <h1><span class="purple" id="changing-word"> Students.</span><h1>
+                        
+                        <p>
+                        We offer students a guided pathway to their future. Our counseling allows students to pursue to advance careers in different industries.
+                        </p>
+                        <div class="input__wrapper">
+                            <input type="email" placeholder="Your E-mail Address">
+                            <button class="link__primary btn">Join Now!</button>
+                        </div>
+                        <div class="customers__wrapper">
+                            <p>Created at:</p>
+                            <img src="full_logo.png" alt="">
+                        </div>
+                    </div>
+                    <figure class="right__wrapper">
+                       <img src="./assets/design-illustration-2.6da6a00b.svg" alt="">
+                    
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="upper__wrapper">
+                        <span class="title">FEATURES</span>
+                        <h2>We have Career <span class="purple">Counseling .</span></h2>
+                        <p>.</p>
+                    </div>
+                    <div class="services">
+                        <div class="service">
+                            <figure class="service__icon--wrapper">
+                                <img src="./assets/shield-icon.daefe14b.svg" alt="">
+                            </figure>
+                            <div class="service__description--wrapper">
+                                <span class="service__title">Secure</span>
+                                <p class="service__description">Our security protocols are stringent, partnering exclusively with vendors renowned for their top-tier security measures.</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__icon--wrapper">
+                                <img src="./assets/support-icon.f9253ffa.svg" alt="">
+                            </figure>
+                            <div class="service__description--wrapper">
+                                <span class="service__title">24/7 Support</span>
+                                <p class="service__description">Round-the-clock support available anytime, day or night.</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__icon--wrapper">
+                                <img src="./assets/customize-icon.367468c9.svg" alt="">
+                            </figure>
+                            <div class="service__description--wrapper">
+                                <span class="service__title">Personalized</span>
+                                <p class="service__description">Tailored specifically to your needs or preferences, ensuring a unique and customized experience.</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__icon--wrapper">
+                                <img src="./assets/reliable-icon.1367510a.svg" alt="">
+                            </figure>
+                            <div class="service__description--wrapper">
+                                <span class="service__title">Reliable</span>
+                                <p class="service__description">Consistently trustworthy and dependable, ensuring peace of mind and satisfaction.</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__icon--wrapper">
+                                <img src="./assets/fast-icon.dbb971a7.svg" alt="">
+                            </figure>
+                            <div class="service__description--wrapper">
+                                <span class="service__title">Fast</span>
+                                <p class="service__description">Swift and efficient, ensuring prompt delivery and execution.</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__icon--wrapper">
+                                <img src="./assets/simple-icon.673b7e17.svg" alt="">
+                            </figure>
+                            <div class="service__description--wrapper">
+                                <span class="service__title">Easy</span>
+                                <p class="service__description">After just a few questions with our chatbot, you'll be on your way with lots of information about potential careers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quality__work">
+            <div class="container">
+                <div class="row">
+                    <div class="qw__left__wrapper">
+                        <span class="title">QUALITY WORK</span>
+                        <h2>Designed & Developed by <span class="purple">Students.</span></h2>
+                        <p>Trust me we've been there! We know what its like to go down the endless rabbit hole of careers, so we designed the perfect assisstant for you. We offer personalized career couseling specific to your school to ease your school stress!</p>
+                        <button class="link__primary" href="learn.html">Learn About Us</button>
+                    </div>
+                    <div class="qw__right__wrapper">
+                        <img class="right__wrapper--img" src="image.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="steps">
+            <div class="container">
+                <div class="row">
+                    <div class="stps__left__wrapper">
+                        <img class="stps__left__wrapper--img" src="./assets/hero-screenshot-2.241aac1f.png" alt="">
+                    </div>
+                    <div class="stps__right__wrapper">
+                        <div class="upper">
+                            <span class="title">STEPS</span>
+                            <h2>Easy to <span class="purple">Get Started.</span></h2>
+                        </div>
+                        <div class="stps__lists--wrapper">
+                            <div class="stps__lists">
+                                <div class="stps__number">01</div>
+                                <div class="stps__descrip--wrapper">
+                                    <p class="stps__title">Register</p>
+                                    <p class="stps__descrip">Create an account!</p>
+                                </div>
+                            </div>
+
+                            <div class="stps__lists">
+                                <div class="stps__number">02</div>
+                                <div class="stps__descrip--wrapper">
+                                    <p class="stps__title">Survey</p>
+                                    <p class="stps__descrip">Make your way to the Survey Page and take the survery with out personalized chatbot.</p>
+                                </div>
+                            </div>
+
+                            <div class="stps__lists">
+                                <div class="stps__number">03</div>
+                                <div class="stps__descrip--wrapper">
+                                    <p class="stps__title">Learn</p>
+                                    <p class="stps__descrip">After taking the survery start LEARNING!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="values">
+            <div class="container">
+                <div class="row">
+                    <div class="v__left__wrapper">
+                        <div class="v__upper__wrapper">
+                            <span class="title">VALUES</span>
+                            <h2>Our <span class="purple">Values</span></h2>
+                            <p>We care for the wellbeing of our users and our company, so we abide by our 2 most important values.</p>
+                        </div>
+                        <ul class="v__bottom__wrapper">
+                            <li class="principle">
+                                <div class="icon__wrapper affordable">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                </div>
+                                <span>Accessibility</span>
+                                <p>We promise to offer our services to all students. No exceptions. Access to every person with/without education.</p>
+                            </li>
+
+                            <li class="principle">
+                                <div class="icon__wrapper professionalism">
+                                    <i class="fa-solid fa-suitcase"></i>
+                                </div>     
+                                <span>Empowerment</span>
+                                <p>Everyone deserves a support system. We assure everyone that we will do everything in our power to inspire and assist development of each person in their career of interest.</p>
+                            </li>
+                        </ul>
+                        <button class="link__primary">Learn More</button>
+                    </div>
+                    <div class="v__right__wrapper">
+                        <img class="stps__left__wrapper--img" src="./assets/prototype-illustration.21bc4b3f.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="pricing__upper--wrapper">
+                        <span class="title">PRICING</span>
+                        <h2>Reasonable & Flexible <span class="purple">Plans.</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="pricing__lists">
+                        <div class="pricing__list">
+                            <div class="plan__highlight"></div>
+                            <div class="plan__up">
+                                <span class="name">PERSONAL</span>
+                                <span class="price">$17.99</span>
+                                <span class="duration">MONTHLY</span>
+                            </div>
+                            <div class="plan__middle">
+                                <span class="main__feature">For Individuals</span>
+                                <span class="feature">30 Templates</span>
+                                <span class="feature">7 Landing Pages</span>
+                                <span class="feature">12 Internal Pages</span>
+                                <span class="feature">Basic Assistance</span>
+                            </div>
+                            <div class="plan__bottom">
+                                <button class="plan__btn">buy now</button>
+                            </div>
+                        </div>
+
+                        <div class="pricing__list">
+                            <div class="plan__up">
+                                <span class="name">BUSINESS</span>
+                                <span class="price">$37.99</span>
+                                <span class="duration">MONTHLY</span>
+                            </div>
+                            <div class="plan__middle">
+                                <span class="main__feature">For Small Businesses</span>
+                                <span class="feature">60 Templates</span>
+                                <span class="feature">15 Landing Pages</span>
+                                <span class="feature">22 Internal Pages</span>
+                                <span class="feature">Priority Assistance</span>
+                            </div>
+                            <div class="plan__bottom">
+                                <button class="plan__btn">buy now</button>
+                            </div>
+                        </div>
+
+                        <div class="pricing__list">
+                            <div class="plan__highlight"></div>
+                            <div class="plan__up">
+                                <span class="name">ENTERPRISE</span>
+                                <span class="price">$57.99</span>
+                                <span class="duration">MONTHLY</span>
+                            </div>
+                            <div class="plan__middle">
+                                <span class="main__feature">For Large Companies</span>
+                                <span class="feature">90 Templates</span>
+                                <span class="feature">27 Landing Pages</span>
+                                <span class="feature">32 Internal Pages</span>
+                                <span class="feature">Personal Assistance</span>
+                            </div>
+                            <div class="plan__bottom">
+                                <button class="plan__btn">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials"></section>
+    </main>
+    <footer id="footer__details">
+        <div class="container">
+            <div class="row">
+                <div class="lists__wrapper">
+                    <div class="footer__lists">
+                        <h5>MAIN</h5>
+                        <div class="footer__lists--wrapper">
+                            <a href="#">Blog</a>
+                            <a href="#">FAQs</a>
+                            <a href="#">Support</a>
+                            <a href="#">About Us</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__lists">
+                        <h5>PRODUCT</h5>
+                        <div class="footer__lists--wrapper">
+                            <a href="#">Log In</a>
+                            <a href="#">Personal</a>
+                            <a href="#">Business</a>
+                            <a href="#">Team</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__lists">
+                        <h5>PRESS</h5>
+                        <div class="footer__lists--wrapper">
+                            <a href="#">Logos</a>
+                            <a href="#">Events</a>
+                            <a href="#">Stories</a>
+                            <a href="#">Office</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__lists">
+                        <h5>TEAM</h5>
+                        <div class="footer__lists--wrapper">
+                            <a href="#">Career</a>
+                            <a href="#">Founders</a>
+                            <a href="#">Culture</a>
+                            <a href="#">Onboarding</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__lists">
+                        <h5>LEGAL</h5>
+                        <div class="footer__lists--wrapper">
+                            <a href="#">GDPR</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Disclaimer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="footer__bottom">
+                    <div class="left__logo">
+                        <img src="./assets/logo-light.d9a5d1b5.svg" alt="">
+                        <h5>CareerHub.</h5>
+                    </div>
+                    <p>&copy; 2024 CareerHub Inc.</p>
+                    <div class="right__links">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@prodarkknight328"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,180 @@
+/* Global Reset and Basic Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding-top: 60px; /* Adjust according to your header height */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header Styles */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.nav__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav__bar .logo__name {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links .link, .menu__wrapper .menu__link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.links .link:hover, .menu__wrapper .menu__link:hover {
+    background-color: #555;
+}
+
+.links__menu__btn--open, .links__menu__btn--close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.links__menu__btn--open:hover, .links__menu__btn--close:hover {
+    color: #ccc;
+}
+
+.menu__backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__wrapper {
+    background-color: #333;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.logo__img {
+    width: 60px;
+    height: auto;
+}
+
+.logo__name {
+    margin-left: 12px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #243E63;
+    transition: all 300ms ease;
+}
+
+.left__logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu__link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.menu__link:hover {
+    background-color: #555;
+}
+
+/* FAQ Styles */
+
+.faq {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 80px; /* Adjust according to your header height */
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.faq__item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.faq__item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.faq__item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .nav__bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .links .link, .menu__wrapper .menu__link {
+        padding: 10px 20px;
+    }
+
+    .menu__backdrop {
+        display: flex;
+    }
+
+    .menu__wrapper {
+        width: 100%;
+        max-width: 300px;
+    }
+}
